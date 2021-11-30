@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+}
+.rounded-box {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background-color: rgb(16, 16, 16);
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.box {
+  border-radius: 15px;
+  border: 2px solid rgb(240, 210, 30);
+  transition: 0.3s all;
+}
+.box:hover {
+  background-color: rgb(85, 75, 15);
+  box-shadow: rgb(240, 210, 30) 0 0 20px;
+  transform: scale(1.1);
+}
+.title-text {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: rgb(240, 210, 30);
+}
+.normal-text {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.email-text {
+  font-size: 15px;
+}
